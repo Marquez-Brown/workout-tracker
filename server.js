@@ -1,6 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const workoutController = require("./Develop/controller/workoutController.js");
+
+//requiring the controller for routing 
+const workoutController = require("./controller/workoutController");
+const viewsController = require("./controller/views");
 const app = express();
 
 
@@ -28,6 +31,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(workoutController);
+app.use(viewsController);
 
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);

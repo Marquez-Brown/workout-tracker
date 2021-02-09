@@ -1,11 +1,7 @@
 const express = require("express");
-const Router = express.router();
-const Workout = require("../model/models/Workout");
-
-//require dependencies & create router instance
-const express = require("express");
 const Router = express.Router();
 const Workout = require("../models/Workout");
+
 
 // GET route for all workouts
 Router.get("/api/workouts", (req, res) => {
