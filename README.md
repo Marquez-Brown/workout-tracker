@@ -27,11 +27,7 @@ https://evening-sea-64916.herokuapp.com/
 
 ![imageofsite](./public/assets/workout-tracker.png)
 
-## Recent changes 
-*01-21-2021 - started app
-*01-22-2021 - Added files, starter database
-*01-22-2021 - Added Read.ME
-*01-22-2021 - Not all functionality is finished, come back at a later time or contribute.
+
 
 
 ## If you would like to contribute
